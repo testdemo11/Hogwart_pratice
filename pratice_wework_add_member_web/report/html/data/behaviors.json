@@ -1,0 +1,49 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "测试添加联系人的用例，看添加的姓名是否添加成功",
+    "children" : [ {
+      "name" : "传入用户名，账号，手机号三个参数，测试是否添加联系人成功",
+      "children" : [ {
+        "name" : "test_add_member[user1]",
+        "uid" : "a919526cbcca0f51",
+        "parentUid" : "7b8cab25ee8c55427da47c4d3cadc131",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614858915444,
+          "stop" : 1614858918089,
+          "duration" : 2645
+        },
+        "flaky" : false,
+        "parameters" : [ "'t55'", "'17612345658'", "'t25'" ]
+      }, {
+        "name" : "test_add_member[user2]",
+        "uid" : "11c05e6c88d1b4c9",
+        "parentUid" : "7b8cab25ee8c55427da47c4d3cadc131",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614858919007,
+          "stop" : 1614858920203,
+          "duration" : 1196
+        },
+        "flaky" : false,
+        "parameters" : [ "'t66'", "'17612345668'", "'t255'" ]
+      }, {
+        "name" : "test_add_member[user3]",
+        "uid" : "d09d4c5d97502280",
+        "parentUid" : "7b8cab25ee8c55427da47c4d3cadc131",
+        "status" : "passed",
+        "time" : {
+          "start" : 1614858921117,
+          "stop" : 1614858922147,
+          "duration" : 1030
+        },
+        "flaky" : false,
+        "parameters" : [ "'t77'", "'17612345688'", "'t2555'" ]
+      } ],
+      "uid" : "7b8cab25ee8c55427da47c4d3cadc131"
+    } ],
+    "uid" : "848fe0217760fcc082b33a4043c4ecee"
+  } ]
+}

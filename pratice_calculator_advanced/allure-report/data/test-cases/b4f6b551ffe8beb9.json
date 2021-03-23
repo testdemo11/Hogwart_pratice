@@ -1,0 +1,125 @@
+{
+  "uid" : "b4f6b551ffe8beb9",
+  "name" : "test_add[get_datas_add45]",
+  "fullName" : "test_calc_new.TestCalculator#test_add",
+  "historyId" : "7c5040056c4bf7f18c142dc8c188ecf0",
+  "time" : {
+    "start" : 1612345233313,
+    "stop" : 1612345233313,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1612345233044,
+      "stop" : 1612345233044,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_datas_add",
+    "time" : {
+      "start" : 1612345233312,
+      "stop" : 1612345233312,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_calc::0",
+    "time" : {
+      "start" : 1612345234117,
+      "stop" : 1612345234117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_datas_add::0",
+    "time" : {
+      "start" : 1612345233313,
+      "stop" : 1612345233313,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "story",
+    "value" : "计算器的加法测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc_new"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "Naraku15"
+  }, {
+    "name" : "thread",
+    "value" : "6112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc_new"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_datas_add",
+    "value" : "[0.5, 4900.9, 4901.4]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "b4f6b551ffe8beb9.json",
+  "parameterValues" : [ "[0.5, 4900.9, 4901.4]" ]
+}

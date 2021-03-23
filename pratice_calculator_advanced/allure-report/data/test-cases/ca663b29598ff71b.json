@@ -1,0 +1,131 @@
+{
+  "uid" : "ca663b29598ff71b",
+  "name" : "test_add[get_datas_add93]",
+  "fullName" : "test_calc_new.TestCalculator#test_add",
+  "historyId" : "83bcdf39262c86e2a3aa0abce6a253c8",
+  "time" : {
+    "start" : 1612345233493,
+    "stop" : 1612345233493,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0.5 == 0.6",
+  "statusTrace" : "self = <pratice_demo.pratice_calculator_advanced.test_calc_new.TestCalculator object at 0x00000227C9A91190>\nget_calc = <pratice_demo.pratice_calculator_advanced.demo.calc.Calculator object at 0x00000227C9B9A520>, get_datas_add = [0.1, 0.4, 0.6]\n\n    @allure.story(\"计算器的加法测试\")\n    @pytest.mark.run(order=1)\n    def test_add(self, get_calc, get_datas_add):\n        # 假设最大能输入999999999\n        if get_datas_add[0] > 999999999 or get_datas_add[1] > 999999999:\n            print(\"超出最大数值999999999，不允许输出\")\n            assert False\n        # 假设最小能输入-999999999\n        elif get_datas_add[0] < -999999999 or get_datas_add[1] < -999999999:\n            print(\"超出最小数值-999999999，不允许输出\")\n            assert False\n        else:\n            # 调用add方法\n            result = get_calc.add(get_datas_add[0], get_datas_add[1])\n            # 假设result最大能输入999999999\n            if result > 999999999:\n                print(\"超出最大数值999999999，不允许输出\")\n                assert False\n            # 假设result最小能输入-999999999\n            elif result < -999999999:\n                print(\"超出最小数值-999999999，不允许输出\")\n                assert False\n            else:\n                if isinstance(result, float):\n                    # 浮点型的计算，是二进制运算，可能会丢位，所以可以使用round方法处理浮点数，强制保留2位数\n                    result = round(result, 2)\n                # 断言判断\n>               assert result == get_datas_add[2]\nE               assert 0.5 == 0.6\n\ntest_calc_new.py:92: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1612345233044,
+      "stop" : 1612345233044,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_datas_add",
+    "time" : {
+      "start" : 1612345233492,
+      "stop" : 1612345233493,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "get_calc::0",
+    "time" : {
+      "start" : 1612345234117,
+      "stop" : 1612345234117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_datas_add::0",
+    "time" : {
+      "start" : 1612345233498,
+      "stop" : 1612345233498,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "story",
+    "value" : "计算器的加法测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc_new"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "Naraku15"
+  }, {
+    "name" : "thread",
+    "value" : "6112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc_new"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_datas_add",
+    "value" : "[0.1, 0.4, 0.6]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=1)" ]
+  },
+  "source" : "ca663b29598ff71b.json",
+  "parameterValues" : [ "[0.1, 0.4, 0.6]" ]
+}

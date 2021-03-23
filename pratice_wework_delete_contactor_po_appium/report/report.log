@@ -1,0 +1,56 @@
+2021-03-19 20:03:59basepage.py[line:31] INFO find: by = xpath,locator = //*[@resource-id="com.tencent.wework:id/afp" and @text="日程"]
+2021-03-19 20:04:00basepage.py[line:31] INFO find: by = xpath,locator = //*[@text='通讯录']
+2021-03-19 20:04:11basepage.py[line:31] INFO find: by = xpath,locator = //*[@text='通讯录']
+2021-03-19 20:04:12basepage.py[line:31] INFO find: by = xpath,locator = //*[@resource-id='com.tencent.wework:id/guu']
+2021-03-19 20:04:14search.py[line:14] INFO 输入待删除的用户名：tt
+2021-03-19 20:04:14basepage.py[line:31] INFO find: by = xpath,locator = //*[@text='搜索']
+2021-03-19 20:04:16basepage.py[line:31] INFO find: by = xpath,locator = //*[@text='联系人']/../..//*[@resource-id='com.tencent.wework:id/avi']
+2021-03-19 20:04:16basepage.py[line:31] INFO find: by = xpath,locator = //*[@resource-id='com.tencent.wework:id/guk']
+2021-03-19 20:04:18basepage.py[line:31] INFO find: by = xpath,locator = //*[@text='编辑成员']
+2021-03-19 20:04:19basepage.py[line:31] INFO find: by = xpath,locator = //*[@text='删除成员']
+2021-03-19 20:04:20basepage.py[line:31] INFO find: by = xpath,locator = //*[@text='确定']
+2021-03-19 20:12:52basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:12:52basepage.py[line:37] INFO find: by = xpath,locator = //*[@resource-id="com.tencent.wework:id/afp" and @text="日程"]
+2021-03-19 20:12:54basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:12:54basepage.py[line:37] INFO find: by = xpath,locator = //*[@text='通讯录']
+2021-03-19 20:13:04basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:13:04basepage.py[line:37] INFO find: by = xpath,locator = //*[@text='通讯录']
+2021-03-19 20:13:05basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:13:05basepage.py[line:37] INFO find: by = xpath,locator = //*[@resource-id='com.tencent.wework:id/guu']
+2021-03-19 20:13:07search.py[line:14] INFO 输入待删除的用户名：tt
+2021-03-19 20:13:07basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:13:07basepage.py[line:37] INFO find: by = xpath,locator = //*[@text='搜索']
+2021-03-19 20:13:09basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:13:09basepage.py[line:37] INFO find: by = xpath,locator = //*[@text='联系人']/../..//*[@resource-id='com.tencent.wework:id/avi']
+2021-03-19 20:13:09basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:13:09basepage.py[line:37] INFO find: by = xpath,locator = //*[@resource-id='com.tencent.wework:id/guk']
+2021-03-19 20:13:11basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:13:11basepage.py[line:37] INFO find: by = xpath,locator = //*[@text='编辑成员']
+2021-03-19 20:13:12basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:13:12basepage.py[line:37] INFO find: by = xpath,locator = //*[@text='删除成员']
+2021-03-19 20:13:13basepage.py[line:36] INFO 进入黑名单处理
+2021-03-19 20:13:13basepage.py[line:37] INFO find: by = xpath,locator = //*[@text='确定']
+2021-03-19 20:14:31basepage.py[line:36] INFO find: by = xpath,locator = //*[@resource-id="com.tencent.wework:id/afp" and @text="日程"]
+2021-03-19 20:14:32basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='通讯录']
+2021-03-19 20:14:43basepage.py[line:43] INFO 进入黑名单处理
+2021-03-19 20:14:43basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='通讯录']
+2021-03-19 20:14:44basepage.py[line:36] INFO find: by = xpath,locator = //*[@resource-id='com.tencent.wework:id/guu']
+2021-03-19 20:14:45search.py[line:14] INFO 输入待删除的用户名：tt
+2021-03-19 20:14:45basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='搜索']
+2021-03-19 20:14:47basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='联系人']/../..//*[@resource-id='com.tencent.wework:id/avi']
+2021-03-19 20:14:47basepage.py[line:36] INFO find: by = xpath,locator = //*[@resource-id='com.tencent.wework:id/guk']
+2021-03-19 20:14:49basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='编辑成员']
+2021-03-19 20:14:50basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='删除成员']
+2021-03-19 20:14:51basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='确定']
+2021-03-19 20:23:32basepage.py[line:36] INFO find: by = xpath,locator = //*[@resource-id="com.tencent.wework:id/afp" and @text="日程"]
+2021-03-19 20:23:33basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='通讯录']
+2021-03-19 20:23:44basepage.py[line:43] INFO 进入黑名单处理
+2021-03-19 20:23:44basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='通讯录']
+2021-03-19 20:23:45basepage.py[line:36] INFO find: by = xpath,locator = //*[@resource-id='com.tencent.wework:id/guu']
+2021-03-19 20:23:47search.py[line:14] INFO 输入待删除的用户名：tt
+2021-03-19 20:23:47basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='搜索']
+2021-03-19 20:23:49basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='联系人']/../..//*[@resource-id='com.tencent.wework:id/avi']
+2021-03-19 20:23:49basepage.py[line:36] INFO find: by = xpath,locator = //*[@resource-id='com.tencent.wework:id/guk']
+2021-03-19 20:23:51basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='编辑成员']
+2021-03-19 20:23:51basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='删除成员']
+2021-03-19 20:23:52basepage.py[line:36] INFO find: by = xpath,locator = //*[@text='确定']

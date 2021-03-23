@@ -1,0 +1,149 @@
+{
+  "uid" : "b8e54df42bebdc1c",
+  "name" : "test_div[get_datas_div0]",
+  "fullName" : "test_calc_new.TestCalculator#test_div",
+  "historyId" : "c3ffcf38930fc12944ebceab49168c9b",
+  "time" : {
+    "start" : 1612345233810,
+    "stop" : 1612345233811,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <pratice_demo.pratice_calculator_advanced.test_calc_new.TestCalculator object at 0x00000227C9CF74F0>\nget_calc = <pratice_demo.pratice_calculator_advanced.demo.calc.Calculator object at 0x00000227C9B9A520>, get_datas_div = [2, 0, 0]\n\n    @allure.story(\"计算器的除法测试\")\n    @pytest.mark.run(order=4)\n    def test_div(self, get_calc, get_datas_div):\n        # 假设最大能输入999999999\n        if get_datas_div[0] > 999999999 or get_datas_div[1] > 999999999:\n            print(\"超出最大数值999999999，不允许输出\")\n            assert False\n        # 假设最小能输入-999999999\n        elif get_datas_div[0] < -999999999 or get_datas_div[1] < -999999999:\n            print(\"超出最小数值-999999999，不允许输出\")\n            assert False\n        # 判断除数是否为0，为0不能除\n        elif get_datas_div[1] == 0:\n            print(\"b为除数，不可以为0\")\n>           assert False\nE           assert False\n\ntest_calc_new.py:110: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_calc",
+    "time" : {
+      "start" : 1612345233044,
+      "stop" : 1612345233044,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_datas_div",
+    "time" : {
+      "start" : 1612345233810,
+      "stop" : 1612345233810,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <pratice_demo.pratice_calculator_advanced.test_calc_new.TestCalculator object at 0x00000227C9CF74F0>\nget_calc = <pratice_demo.pratice_calculator_advanced.demo.calc.Calculator object at 0x00000227C9B9A520>, get_datas_div = [2, 0, 0]\n\n    @allure.story(\"计算器的除法测试\")\n    @pytest.mark.run(order=4)\n    def test_div(self, get_calc, get_datas_div):\n        # 假设最大能输入999999999\n        if get_datas_div[0] > 999999999 or get_datas_div[1] > 999999999:\n            print(\"超出最大数值999999999，不允许输出\")\n            assert False\n        # 假设最小能输入-999999999\n        elif get_datas_div[0] < -999999999 or get_datas_div[1] < -999999999:\n            print(\"超出最小数值-999999999，不允许输出\")\n            assert False\n        # 判断除数是否为0，为0不能除\n        elif get_datas_div[1] == 0:\n            print(\"b为除数，不可以为0\")\n>           assert False\nE           assert False\n\ntest_calc_new.py:110: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d912c4b2f1568ae3",
+      "name" : "stdout",
+      "source" : "d912c4b2f1568ae3.txt",
+      "type" : "text/plain",
+      "size" : 27
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ {
+    "name" : "get_calc::0",
+    "time" : {
+      "start" : 1612345234117,
+      "stop" : 1612345234117,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_datas_div::0",
+    "time" : {
+      "start" : 1612345233816,
+      "stop" : 1612345233816,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器"
+  }, {
+    "name" : "story",
+    "value" : "计算器的除法测试"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=4)"
+  }, {
+    "name" : "suite",
+    "value" : "test_calc_new"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalculator"
+  }, {
+    "name" : "host",
+    "value" : "Naraku15"
+  }, {
+    "name" : "thread",
+    "value" : "6112-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_calc_new"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "get_datas_div",
+    "value" : "[2, 0, 0]"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=4)" ]
+  },
+  "source" : "b8e54df42bebdc1c.json",
+  "parameterValues" : [ "[2, 0, 0]" ]
+}

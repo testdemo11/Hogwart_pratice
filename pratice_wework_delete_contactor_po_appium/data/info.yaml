@@ -1,0 +1,5 @@
+goto_edit_contactor:
+  - by: xpath
+    locator: //*[@resource-id='com.tencent.wework:id/guk']
+    action: click
+

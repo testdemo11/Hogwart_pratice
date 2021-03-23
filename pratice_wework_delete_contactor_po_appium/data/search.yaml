@@ -1,0 +1,16 @@
+get_search_contactor_num:
+  - by: xpath
+    locator: //*[@text='搜索']
+    action: send
+    value: ${name}
+
+
+#  - by: xpath
+#    locator: //*[@resource-id='com.tencent.wework:id/avi']
+##    locator: //*[@text='联系人']/../..//*[@resource-id='com.tencent.wework:id/avi']
+#    action: finds
+
+goto_info:
+  - by: xpath
+    locator: //*[@text='联系人']/../..//*[@resource-id='com.tencent.wework:id/avi']
+    action: click

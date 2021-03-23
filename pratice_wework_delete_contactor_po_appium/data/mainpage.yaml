@@ -1,0 +1,7 @@
+goto_contactor:
+  - by: xpath
+    locator: //*[@resource-id="com.tencent.wework:id/afp" and @text="日程"]
+    action: click
+  - by: xpath
+    locator: //*[@text='通讯录']
+    action: click

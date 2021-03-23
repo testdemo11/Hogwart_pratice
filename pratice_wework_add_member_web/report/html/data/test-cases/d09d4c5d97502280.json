@@ -1,0 +1,212 @@
+{
+  "uid" : "d09d4c5d97502280",
+  "name" : "test_add_member[user3]",
+  "fullName" : "test_add_member.TestAddMember#test_add_member",
+  "historyId" : "5d98918ca5097fa16554dfd975ed6858",
+  "time" : {
+    "start" : 1614858921117,
+    "stop" : 1614858922147,
+    "duration" : 1030
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "等待添加联系人元素出现",
+      "time" : {
+        "start" : 1614858921117,
+        "stop" : 1614858921131,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击添加联系人",
+      "time" : {
+        "start" : 1614858921131,
+        "stop" : 1614858921221,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入用户名:t2555",
+      "time" : {
+        "start" : 1614858921221,
+        "stop" : 1614858921492,
+        "duration" : 271
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入账号:t77",
+      "time" : {
+        "start" : 1614858921492,
+        "stop" : 1614858921538,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入手机号:17612345688",
+      "time" : {
+        "start" : 1614858921538,
+        "stop" : 1614858921598,
+        "duration" : 60
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击保存",
+      "time" : {
+        "start" : 1614858921598,
+        "stop" : 1614858921672,
+        "duration" : 74
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "等待保存成功返回联系人界面",
+      "time" : {
+        "start" : 1614858921672,
+        "stop" : 1614858922129,
+        "duration" : 457
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "找到所有联系人的姓名对应的元素",
+      "time" : {
+        "start" : 1614858922129,
+        "stop" : 1614858922133,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "找到对应姓名的title",
+      "time" : {
+        "start" : 1614858922133,
+        "stop" : 1614858922147,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试添加联系人的用例，看添加的姓名是否添加成功"
+  }, {
+    "name" : "story",
+    "value" : "传入用户名，账号，手机号三个参数，测试是否添加联系人成功"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_member"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddMember"
+  }, {
+    "name" : "host",
+    "value" : "Naraku15"
+  }, {
+    "name" : "thread",
+    "value" : "292-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_add_member"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "account",
+    "value" : "'t77'"
+  }, {
+    "name" : "phonenum",
+    "value" : "'17612345688'"
+  }, {
+    "name" : "username",
+    "value" : "'t2555'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d09d4c5d97502280.json",
+  "parameterValues" : [ "'t77'", "'17612345688'", "'t2555'" ]
+}
