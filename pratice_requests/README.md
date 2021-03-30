@@ -1,0 +1,1 @@
+使用requests对企业微信通讯录接口进行封装，并清洗数据，以及使用session方式获取access_token
